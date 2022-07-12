@@ -11,5 +11,9 @@ btns.forEach(btn => {
                 result.value = 0;
             } else result.value = eval(result.value);
         }   else result.value += btn.innerHTML;
+
+        if (btn.classList.contains('btn_clear')) {
+            result.value = '';
+        }
     })
 });

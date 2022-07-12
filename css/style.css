@@ -22,7 +22,7 @@ a {
 .block {
     background: #808080;
     width: 250px;
-    height: 300px;
+    height: auto;
     padding: 10px;
     box-sizing: border-box;
     box-shadow: 3px 3px 4px 0 rgba(0, 0, 0, .1);
@@ -48,6 +48,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    grid-column: 2fr;
     gap: 10px;
 }
 .btn {
