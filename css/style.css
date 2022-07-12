@@ -28,16 +28,21 @@ a {
     box-shadow: 3px 3px 4px 0 rgba(0, 0, 0, .1);
 }
 .result__panel {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    display: block;
     width: 230px;
     height: 60px;
+    margin-bottom: 10px;
+    padding: 30px 10px 5px;
+    text-align: right;
+    font-size: inherit;
     color: inherit;
     background: #B0B0B0;
-    margin-bottom: 10px;
-    padding: 5px 10px;
+    border: none;
+    outline: none;
     box-sizing: border-box;
+}
+::placeholder {
+    color: #fff;
 }
 .btns-block {
     display: grid;
